@@ -5,6 +5,18 @@ body {
   box-sizing: border-box;
 }
 
+#container{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin: -12px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin: -12px;
+}
+
 nav {
   background-color: #2c3e50;
   color: #fff;
@@ -128,4 +140,14 @@ dialog::backdrop {
 .table-section {
   height: calc(100vh - 52px);
   overflow-y: scroll;
+}
+
+@media screen and (max-width: 767px) {
+  #container{
+    
+    grid-template-columns: 1fr;
+  }
+  .container{
+    grid-template-columns: 1fr;
+  }
 }

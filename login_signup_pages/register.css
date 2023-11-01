@@ -38,6 +38,8 @@ body {
     inset rgba(0, 0, 0, 0.07) 0px 16px 32px,
     inset rgba(0, 0, 0, 0.07) 0px 32px 64px;
   border-radius: 7px;
+  background-color: #2c3e50;
+  
 }
 .right h1 {
   border-top-right-radius: 6px;
@@ -81,14 +83,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .form div {
   margin-bottom: 15px;
+  background-color: #2c3e50;
+  color: white;
 }
 .form label {
   display: block;
   font-size: 20px;
   padding-bottom: 5px;
+  background-color: #2c3e50;
 }
 .form input {
   width: 90%;
@@ -98,33 +104,45 @@ body {
   /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px; */
   font-size: medium;
   margin-left: 5px;
+  
 }
 .form {
   width: 80%;
   margin: 25px auto 0 auto;
+  background-color: #2c3e50;
 }
 .or {
   width: 80%;
   margin: auto;
   margin-top: 10px;
+  
 }
 .forgotPass {
   width: 90%;
   display: grid;
   /* border: 1px solid; */
   grid-template-columns: repeat(2, 1fr);
+  background-color: #2c3e50;
 }
 .checkbox {
   display: flex;
+  background-color: #2c3e50;
+}
+.checkbox p{
+  background-color: #2c3e50;
 }
 #checkboxInp {
   width: 15px;
   margin-right: 10px;
   box-shadow: none;
   border: none;
+  background-color: #2c3e50;
 }
 .fp p {
   text-align: end;
+  
+    background-color: #2c3e50;
+  
 }
 .btn {
   width: 90%;
@@ -145,6 +163,14 @@ body {
 }
 .signupLink a {
   text-decoration: none;
+  
+    background-color: #2c3e50;
+  
+}
+
+.signupLink{
+  background-color: #2c3e50;
+  color:white;
 }
 /* ++++++++++++++++++++++++ */
 .first {
@@ -186,8 +212,14 @@ body {
   width: 1.2em;
   /* border: 2px solid; */
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 767px) {
   .left {
     display: none;
   }
+
+  .right{
+    align-items: center;
+    width: 165%;
+  }
+
 }
